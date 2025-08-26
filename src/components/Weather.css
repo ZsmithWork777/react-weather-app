@@ -1,0 +1,71 @@
+/* the card */
+.weather{   
+    place-self: center;     /* 👈 give it a width */
+  padding: 40px;             /* you can keep 40px if you want more space */
+  border-radius: 10px;
+  background: linear-gradient(45deg,#2f4680,#500ae4);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+gap: 12px;
+}
+.search-bar input{
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 16px;
+}
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+     background: #ebfffc;
+     cursor: pointer;
+}
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+.temperature{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.weather-data{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+.weather-data .col{
+    display: flex;
+   
+    align-items: flex-start;
+    color: #fff;
+    gap: 12px;
+    font: size 22px;
+} 
+.weather-data .col span{
+display: block;
+align-items: flex-start;
+gap: 12px;
+font-size: 22px;
+}
+.weather-data .col img{
+    width: 26px;
+    margin-top: 10px;
+}
